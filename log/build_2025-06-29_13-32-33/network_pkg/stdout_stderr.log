@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/network_pkg/network_pkg.egg-info
+writing ../../build/network_pkg/network_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/network_pkg/network_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/network_pkg/network_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/network_pkg/network_pkg.egg-info/requires.txt
+writing top-level names to ../../build/network_pkg/network_pkg.egg-info/top_level.txt
+writing manifest file '../../build/network_pkg/network_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/network_pkg/network_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/network_pkg/network_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yigit/tukan_ros2_ws/build/network_pkg/build
+creating /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib
+creating /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib/network_pkg
+copying network_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib/network_pkg
+running install
+running install_lib
+creating /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg
+copying /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib/network_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg
+byte-compiling /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index
+creating /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index/resource_index
+creating /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index/resource_index/packages
+copying resource/network_pkg -> /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/yigit/tukan_ros2_ws/install/network_pkg/share/network_pkg
+running install_egg_info
+Copying ../../build/network_pkg/network_pkg.egg-info to /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yigit/tukan_ros2_ws/build/network_pkg/install.log'

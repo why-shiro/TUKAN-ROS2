@@ -1,0 +1,33 @@
+[1.134s] Invoking command in '/home/yigit/tukan_ros2_ws/src/tracking_system_pkg': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/tracking_system_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tracking_system_pkg build --build-base /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/build install --record /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/install.log --single-version-externally-managed install_data
+[1.257s] running egg_info
+[1.257s] creating ../../build/tracking_system_pkg/tracking_system_pkg.egg-info
+[1.257s] writing ../../build/tracking_system_pkg/tracking_system_pkg.egg-info/PKG-INFO
+[1.257s] writing dependency_links to ../../build/tracking_system_pkg/tracking_system_pkg.egg-info/dependency_links.txt
+[1.257s] writing entry points to ../../build/tracking_system_pkg/tracking_system_pkg.egg-info/entry_points.txt
+[1.257s] writing requirements to ../../build/tracking_system_pkg/tracking_system_pkg.egg-info/requires.txt
+[1.257s] writing top-level names to ../../build/tracking_system_pkg/tracking_system_pkg.egg-info/top_level.txt
+[1.257s] writing manifest file '../../build/tracking_system_pkg/tracking_system_pkg.egg-info/SOURCES.txt'
+[1.258s] reading manifest file '../../build/tracking_system_pkg/tracking_system_pkg.egg-info/SOURCES.txt'
+[1.259s] writing manifest file '../../build/tracking_system_pkg/tracking_system_pkg.egg-info/SOURCES.txt'
+[1.259s] running build
+[1.259s] running build_py
+[1.259s] creating /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/build
+[1.259s] creating /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/build/lib
+[1.259s] creating /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/build/lib/tracking_system_pkg
+[1.259s] copying tracking_system_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/build/lib/tracking_system_pkg
+[1.259s] running install
+[1.260s] running install_lib
+[1.260s] creating /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages/tracking_system_pkg
+[1.260s] copying /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/build/lib/tracking_system_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages/tracking_system_pkg
+[1.261s] byte-compiling /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages/tracking_system_pkg/__init__.py to __init__.cpython-310.pyc
+[1.261s] running install_data
+[1.261s] creating /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/share/ament_index
+[1.261s] creating /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/share/ament_index/resource_index
+[1.261s] creating /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/share/ament_index/resource_index/packages
+[1.262s] copying resource/tracking_system_pkg -> /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/share/ament_index/resource_index/packages
+[1.262s] copying package.xml -> /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/share/tracking_system_pkg
+[1.262s] running install_egg_info
+[1.264s] Copying ../../build/tracking_system_pkg/tracking_system_pkg.egg-info to /home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages/tracking_system_pkg-0.0.0-py3.10.egg-info
+[1.264s] running install_scripts
+[1.272s] writing list of installed files to '/home/yigit/tukan_ros2_ws/build/tracking_system_pkg/install.log'
+[1.293s] Invoked command in '/home/yigit/tukan_ros2_ws/src/tracking_system_pkg' returned '0': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/tracking_system_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tracking_system_pkg build --build-base /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/build install --record /home/yigit/tukan_ros2_ws/build/tracking_system_pkg/install.log --single-version-externally-managed install_data

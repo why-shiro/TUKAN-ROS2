@@ -1,0 +1,33 @@
+[1.146s] Invoking command in '/home/yigit/tukan_ros2_ws/src/network_pkg': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/network_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/network_pkg build --build-base /home/yigit/tukan_ros2_ws/build/network_pkg/build install --record /home/yigit/tukan_ros2_ws/build/network_pkg/install.log --single-version-externally-managed install_data
+[1.270s] running egg_info
+[1.270s] creating ../../build/network_pkg/network_pkg.egg-info
+[1.270s] writing ../../build/network_pkg/network_pkg.egg-info/PKG-INFO
+[1.270s] writing dependency_links to ../../build/network_pkg/network_pkg.egg-info/dependency_links.txt
+[1.270s] writing entry points to ../../build/network_pkg/network_pkg.egg-info/entry_points.txt
+[1.270s] writing requirements to ../../build/network_pkg/network_pkg.egg-info/requires.txt
+[1.270s] writing top-level names to ../../build/network_pkg/network_pkg.egg-info/top_level.txt
+[1.271s] writing manifest file '../../build/network_pkg/network_pkg.egg-info/SOURCES.txt'
+[1.272s] reading manifest file '../../build/network_pkg/network_pkg.egg-info/SOURCES.txt'
+[1.272s] writing manifest file '../../build/network_pkg/network_pkg.egg-info/SOURCES.txt'
+[1.272s] running build
+[1.272s] running build_py
+[1.272s] creating /home/yigit/tukan_ros2_ws/build/network_pkg/build
+[1.272s] creating /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib
+[1.272s] creating /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib/network_pkg
+[1.272s] copying network_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib/network_pkg
+[1.272s] running install
+[1.273s] running install_lib
+[1.273s] creating /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg
+[1.273s] copying /home/yigit/tukan_ros2_ws/build/network_pkg/build/lib/network_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg
+[1.273s] byte-compiling /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg/__init__.py to __init__.cpython-310.pyc
+[1.273s] running install_data
+[1.274s] creating /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index
+[1.274s] creating /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index/resource_index
+[1.274s] creating /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index/resource_index/packages
+[1.274s] copying resource/network_pkg -> /home/yigit/tukan_ros2_ws/install/network_pkg/share/ament_index/resource_index/packages
+[1.274s] copying package.xml -> /home/yigit/tukan_ros2_ws/install/network_pkg/share/network_pkg
+[1.274s] running install_egg_info
+[1.274s] Copying ../../build/network_pkg/network_pkg.egg-info to /home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages/network_pkg-0.0.0-py3.10.egg-info
+[1.274s] running install_scripts
+[1.284s] writing list of installed files to '/home/yigit/tukan_ros2_ws/build/network_pkg/install.log'
+[1.314s] Invoked command in '/home/yigit/tukan_ros2_ws/src/network_pkg' returned '0': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/network_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/network_pkg build --build-base /home/yigit/tukan_ros2_ws/build/network_pkg/build install --record /home/yigit/tukan_ros2_ws/build/network_pkg/install.log --single-version-externally-managed install_data

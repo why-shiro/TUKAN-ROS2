@@ -1,0 +1,33 @@
+[1.154s] Invoking command in '/home/yigit/tukan_ros2_ws/src/flight_manager_pkg': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/flight_manager_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flight_manager_pkg build --build-base /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build install --record /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/install.log --single-version-externally-managed install_data
+[1.275s] running egg_info
+[1.276s] creating ../../build/flight_manager_pkg/flight_manager_pkg.egg-info
+[1.276s] writing ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/PKG-INFO
+[1.276s] writing dependency_links to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/dependency_links.txt
+[1.276s] writing entry points to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/entry_points.txt
+[1.276s] writing requirements to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/requires.txt
+[1.276s] writing top-level names to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/top_level.txt
+[1.277s] writing manifest file '../../build/flight_manager_pkg/flight_manager_pkg.egg-info/SOURCES.txt'
+[1.278s] reading manifest file '../../build/flight_manager_pkg/flight_manager_pkg.egg-info/SOURCES.txt'
+[1.278s] writing manifest file '../../build/flight_manager_pkg/flight_manager_pkg.egg-info/SOURCES.txt'
+[1.278s] running build
+[1.278s] running build_py
+[1.278s] creating /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build
+[1.278s] creating /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build/lib
+[1.278s] creating /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build/lib/flight_manager_pkg
+[1.279s] copying flight_manager_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build/lib/flight_manager_pkg
+[1.279s] running install
+[1.280s] running install_lib
+[1.280s] creating /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg
+[1.280s] copying /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build/lib/flight_manager_pkg/__init__.py -> /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg
+[1.280s] byte-compiling /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg/__init__.py to __init__.cpython-310.pyc
+[1.280s] running install_data
+[1.280s] creating /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/share/ament_index
+[1.281s] creating /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/share/ament_index/resource_index
+[1.281s] creating /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/share/ament_index/resource_index/packages
+[1.281s] copying resource/flight_manager_pkg -> /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/share/ament_index/resource_index/packages
+[1.281s] copying package.xml -> /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/share/flight_manager_pkg
+[1.281s] running install_egg_info
+[1.282s] Copying ../../build/flight_manager_pkg/flight_manager_pkg.egg-info to /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg-0.0.0-py3.10.egg-info
+[1.283s] running install_scripts
+[1.290s] writing list of installed files to '/home/yigit/tukan_ros2_ws/build/flight_manager_pkg/install.log'
+[1.316s] Invoked command in '/home/yigit/tukan_ros2_ws/src/flight_manager_pkg' returned '0': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/flight_manager_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flight_manager_pkg build --build-base /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build install --record /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/install.log --single-version-externally-managed install_data
