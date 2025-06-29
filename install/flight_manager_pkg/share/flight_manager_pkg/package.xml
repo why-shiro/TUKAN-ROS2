@@ -4,7 +4,7 @@
   <name>flight_manager_pkg</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="yigit@todo.todo">yigit</maintainer>
+  <maintainer email="yigityilmaz@neostellar.net">yigit</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>

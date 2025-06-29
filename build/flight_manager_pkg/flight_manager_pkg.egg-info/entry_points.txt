@@ -1,3 +1,3 @@
 [console_scripts]
-
+mission_manager_node = flight_manager_pkg.mission_manager_node:main
 

@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "mission_manager_node = flight_manager_pkg.mission_manager_node:main"
         ],
     },
 )

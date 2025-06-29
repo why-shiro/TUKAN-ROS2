@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tracking_actions/action/FollowTarget.action
+// generated code does not contain a copyright notice
+
+
+module tracking_actions {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct FollowTarget_Goal {
+      int32 target_uav_id;
+
+      float timeout_sec;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct FollowTarget_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct FollowTarget_Feedback {
+      boolean target_visible;
+
+      float x_offset;
+
+      float y_offset;
+    };
+  };
+};

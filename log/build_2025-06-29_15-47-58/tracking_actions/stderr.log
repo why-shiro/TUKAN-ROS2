@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'action/FollowTArget.action'
+  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/yigit/tukan_ros2_ws/src/tracking_actions'
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (rosidl_generate_interfaces)
+
+[0m

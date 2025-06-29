@@ -1,0 +1,7 @@
+{
+  "package_name": "tracking_actions",
+  "non_idl_tuples": [
+    "/home/yigit/tukan_ros2_ws/src/tracking_actions:action/FollowTarget.action",
+    "/home/yigit/tukan_ros2_ws/src/tracking_actions:action/GpsPursuit.action"
+  ]
+}

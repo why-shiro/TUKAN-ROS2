@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tracking_actions__py",
+		"source" : "/home/yigit/tukan_ros2_ws/build/tracking_actions/tracking_actions__py"
+	}
+}

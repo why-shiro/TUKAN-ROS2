@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tracking_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_actions/action/detail/follow_target__type_support.c.o"
+  "CMakeFiles/tracking_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_actions/action/detail/follow_target__type_support.c.o.d"
+  "CMakeFiles/tracking_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_actions/action/detail/gps_pursuit__type_support.c.o"
+  "CMakeFiles/tracking_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_actions/action/detail/gps_pursuit__type_support.c.o.d"
+  "libtracking_actions__rosidl_typesupport_introspection_c.pdb"
+  "libtracking_actions__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/tracking_actions/action/detail/follow_target__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tracking_actions/action/detail/follow_target__type_support.c"
+  "rosidl_typesupport_introspection_c/tracking_actions/action/detail/gps_pursuit__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/tracking_actions/action/detail/gps_pursuit__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/tracking_actions__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

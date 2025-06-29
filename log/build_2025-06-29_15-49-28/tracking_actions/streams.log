@@ -1,0 +1,219 @@
+[0.007s] Invoking command in '/home/yigit/tukan_ros2_ws/build/tracking_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yigit/tukan_ros2_ws/install/vision_pkg:/home/yigit/tukan_ros2_ws/install/uav_server_pkg:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg:/home/yigit/tukan_ros2_ws/install/px4_interface_pkg:/home/yigit/tukan_ros2_ws/install/network_pkg:/home/yigit/tukan_ros2_ws/install/guardian_pkg:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg:/opt/ros/humble /usr/bin/cmake /home/yigit/tukan_ros2_ws/src/tracking_actions -DCMAKE_INSTALL_PREFIX=/home/yigit/tukan_ros2_ws/install/tracking_actions
+[0.015s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.138s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.331s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.633s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.634s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.652s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.652s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.653s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.653s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.666s] -- Found PythonExtra: .so  
+[0.698s] -- Added test 'lint_cmake' to check CMake code style
+[0.699s] -- Added test 'xmllint' to check XML markup files
+[0.702s] -- Configuring done
+[0.723s] -- Generating done
+[0.730s] -- Build files have been written to: /home/yigit/tukan_ros2_ws/build/tracking_actions
+[0.740s] Invoked command in '/home/yigit/tukan_ros2_ws/build/tracking_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yigit/tukan_ros2_ws/install/vision_pkg:/home/yigit/tukan_ros2_ws/install/uav_server_pkg:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg:/home/yigit/tukan_ros2_ws/install/px4_interface_pkg:/home/yigit/tukan_ros2_ws/install/network_pkg:/home/yigit/tukan_ros2_ws/install/guardian_pkg:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg:/opt/ros/humble /usr/bin/cmake /home/yigit/tukan_ros2_ws/src/tracking_actions -DCMAKE_INSTALL_PREFIX=/home/yigit/tukan_ros2_ws/install/tracking_actions
+[0.740s] Invoking command in '/home/yigit/tukan_ros2_ws/build/tracking_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yigit/tukan_ros2_ws/install/vision_pkg:/home/yigit/tukan_ros2_ws/install/uav_server_pkg:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg:/home/yigit/tukan_ros2_ws/install/px4_interface_pkg:/home/yigit/tukan_ros2_ws/install/network_pkg:/home/yigit/tukan_ros2_ws/install/guardian_pkg:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yigit/tukan_ros2_ws/build/tracking_actions -- -j16 -l16
+[0.764s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.770s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.775s] [  6%] Built target ament_cmake_python_copy_tracking_actions
+[0.925s] running egg_info
+[0.925s] creating tracking_actions.egg-info
+[0.925s] writing tracking_actions.egg-info/PKG-INFO
+[0.925s] writing dependency_links to tracking_actions.egg-info/dependency_links.txt
+[0.925s] writing top-level names to tracking_actions.egg-info/top_level.txt
+[0.925s] writing manifest file 'tracking_actions.egg-info/SOURCES.txt'
+[0.926s] reading manifest file 'tracking_actions.egg-info/SOURCES.txt'
+[0.927s] writing manifest file 'tracking_actions.egg-info/SOURCES.txt'
+[0.945s] [  6%] Built target ament_cmake_python_build_tracking_actions_egg
+[1.024s] [  9%] [32mBuilding C object CMakeFiles/tracking_actions__rosidl_generator_c.dir/rosidl_generator_c/tracking_actions/action/detail/follow_target__functions.c.o[0m
+[1.031s] [  9%] Built target tracking_actions__cpp
+[1.038s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.038s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.038s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.102s] [ 22%] [32m[1mLinking C shared library libtracking_actions__rosidl_generator_c.so[0m
+[1.131s] [ 22%] Built target tracking_actions__rosidl_generator_c
+[1.141s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.143s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.143s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.225s] [ 35%] [32mBuilding CXX object CMakeFiles/tracking_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tracking_actions/action/follow_target__type_support.cpp.o[0m
+[1.258s] [ 38%] [32mBuilding CXX object CMakeFiles/tracking_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tracking_actions/action/detail/follow_target__type_support.cpp.o[0m
+[1.298s] [ 41%] [32mBuilding CXX object CMakeFiles/tracking_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tracking_actions/action/detail/dds_fastrtps/follow_target__type_support.cpp.o[0m
+[1.335s] [ 45%] [32mBuilding CXX object CMakeFiles/tracking_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/tracking_actions/action/follow_target__type_support.cpp.o[0m
+[1.367s] [ 48%] [32m[1mLinking CXX shared library libtracking_actions__rosidl_typesupport_c.so[0m
+[1.371s] [ 51%] [32mBuilding C object CMakeFiles/tracking_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tracking_actions/action/detail/follow_target__type_support.c.o[0m
+[1.377s] [ 54%] [32mBuilding CXX object CMakeFiles/tracking_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tracking_actions/action/detail/follow_target__type_support_c.cpp.o[0m
+[1.397s] [ 54%] Built target tracking_actions__rosidl_typesupport_c
+[1.404s] [ 58%] [32m[1mLinking C shared library libtracking_actions__rosidl_typesupport_introspection_c.so[0m
+[1.426s] [ 58%] Built target tracking_actions__rosidl_typesupport_introspection_c
+[1.493s] [ 61%] [32m[1mLinking CXX shared library libtracking_actions__rosidl_typesupport_cpp.so[0m
+[1.526s] [ 61%] Built target tracking_actions__rosidl_typesupport_cpp
+[1.602s] [ 64%] [32m[1mLinking CXX shared library libtracking_actions__rosidl_typesupport_introspection_cpp.so[0m
+[1.607s] [ 67%] [32m[1mLinking CXX shared library libtracking_actions__rosidl_typesupport_fastrtps_c.so[0m
+[1.633s] [ 70%] [32m[1mLinking CXX shared library libtracking_actions__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.648s] [ 70%] Built target tracking_actions__rosidl_typesupport_introspection_cpp
+[1.653s] [ 70%] Built target tracking_actions__rosidl_typesupport_fastrtps_c
+[1.681s] [ 70%] Built target tracking_actions__rosidl_typesupport_fastrtps_cpp
+[1.693s] [ 70%] Built target tracking_actions
+[1.705s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.124s] [ 74%] Built target tracking_actions__py
+[2.137s] [ 77%] [32mBuilding C object CMakeFiles/tracking_actions__rosidl_generator_py.dir/rosidl_generator_py/tracking_actions/action/_follow_target_s.c.o[0m
+[2.225s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/tracking_actions/libtracking_actions__rosidl_generator_py.so[0m
+[2.255s] [ 80%] Built target tracking_actions__rosidl_generator_py
+[2.267s] [ 83%] [32mBuilding C object CMakeFiles/tracking_actions__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tracking_actions/_tracking_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.267s] [ 87%] [32mBuilding C object CMakeFiles/tracking_actions__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tracking_actions/_tracking_actions_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.268s] [ 90%] [32mBuilding C object CMakeFiles/tracking_actions__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tracking_actions/_tracking_actions_s.ep.rosidl_typesupport_c.c.o[0m
+[2.343s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tracking_actions/tracking_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.343s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tracking_actions/tracking_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.344s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tracking_actions/tracking_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.370s] [100%] Built target tracking_actions__rosidl_typesupport_fastrtps_c__pyext
+[2.370s] [100%] Built target tracking_actions__rosidl_typesupport_introspection_c__pyext
+[2.370s] [100%] Built target tracking_actions__rosidl_typesupport_c__pyext
+[2.378s] Invoked command in '/home/yigit/tukan_ros2_ws/build/tracking_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yigit/tukan_ros2_ws/install/vision_pkg:/home/yigit/tukan_ros2_ws/install/uav_server_pkg:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg:/home/yigit/tukan_ros2_ws/install/px4_interface_pkg:/home/yigit/tukan_ros2_ws/install/network_pkg:/home/yigit/tukan_ros2_ws/install/guardian_pkg:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yigit/tukan_ros2_ws/build/tracking_actions -- -j16 -l16
+[2.384s] Invoking command in '/home/yigit/tukan_ros2_ws/build/tracking_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yigit/tukan_ros2_ws/install/vision_pkg:/home/yigit/tukan_ros2_ws/install/uav_server_pkg:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg:/home/yigit/tukan_ros2_ws/install/px4_interface_pkg:/home/yigit/tukan_ros2_ws/install/network_pkg:/home/yigit/tukan_ros2_ws/install/guardian_pkg:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yigit/tukan_ros2_ws/build/tracking_actions
+[2.388s] -- Install configuration: ""
+[2.388s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/ament_index/resource_index/rosidl_interfaces/tracking_actions
+[2.388s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg/rosidl_generator_c__visibility_control.h
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/follow_target.h
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__functions.c
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__functions.h
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__type_support.h
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__struct.h
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/library_path.sh
+[2.389s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/library_path.dsv
+[2.390s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_generator_c.so
+[2.390s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_generator_c.so" to ""
+[2.390s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions
+[2.390s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg
+[2.390s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.390s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action
+[2.390s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail
+[2.390s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__rosidl_typesupport_fastrtps_c.h
+[2.390s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_fastrtps_c.so
+[2.390s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_fastrtps_c.so" to ""
+[2.390s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions
+[2.390s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg
+[2.390s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.391s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action
+[2.391s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail
+[2.391s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__type_support.c
+[2.391s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__rosidl_typesupport_introspection_c.h
+[2.391s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_introspection_c.so
+[2.391s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_introspection_c.so" to ""
+[2.391s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_c.so
+[2.391s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_c.so" to ""
+[2.391s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions
+[2.391s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg
+[2.391s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.391s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action
+[2.391s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/follow_target.hpp
+[2.392s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__builder.hpp
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__type_support.hpp
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__traits.hpp
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__struct.hpp
+[2.392s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions
+[2.392s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.392s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action
+[2.392s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__rosidl_typesupport_fastrtps_cpp.hpp
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/dds_fastrtps
+[2.392s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_fastrtps_cpp.so
+[2.393s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.393s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions
+[2.393s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action
+[2.393s] -- Up-to-date: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail
+[2.393s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__type_support.cpp
+[2.393s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/include/tracking_actions/tracking_actions/action/detail/follow_target__rosidl_typesupport_introspection_cpp.hpp
+[2.393s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_introspection_cpp.so
+[2.393s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_introspection_cpp.so" to ""
+[2.393s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_cpp.so
+[2.393s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_typesupport_cpp.so" to ""
+[2.393s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/pythonpath.sh
+[2.393s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/pythonpath.dsv
+[2.393s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions-0.0.0-py3.10.egg-info
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions-0.0.0-py3.10.egg-info/PKG-INFO
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions-0.0.0-py3.10.egg-info/top_level.txt
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/_tracking_actions_s.ep.rosidl_typesupport_introspection_c.c
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/__init__.py
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/libtracking_actions__rosidl_generator_py.so
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/action
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/action/__init__.py
+[2.394s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/action/_follow_target.py
+[2.395s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/action/_follow_target_s.c
+[2.395s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/_tracking_actions_s.ep.rosidl_typesupport_c.c
+[2.395s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.395s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.395s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.395s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/_tracking_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.422s] Listing '/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions'...
+[2.423s] Compiling '/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/__init__.py'...
+[2.423s] Listing '/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/action'...
+[2.423s] Compiling '/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/action/__init__.py'...
+[2.423s] Compiling '/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/action/_follow_target.py'...
+[2.425s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.426s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.426s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.426s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.426s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.426s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/local/lib/python3.10/dist-packages/tracking_actions/tracking_actions_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.426s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_generator_py.so
+[2.427s] -- Set runtime path of "/home/yigit/tukan_ros2_ws/install/tracking_actions/lib/libtracking_actions__rosidl_generator_py.so" to ""
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/action/FollowTarget.idl
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/action/FollowTarget.action
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/ament_index/resource_index/package_run_dependencies/tracking_actions
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/ament_index/resource_index/parent_prefix_path/tracking_actions
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/ament_prefix_path.sh
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/ament_prefix_path.dsv
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/path.sh
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/environment/path.dsv
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/local_setup.bash
+[2.427s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/local_setup.sh
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/local_setup.zsh
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/local_setup.dsv
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/package.dsv
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/ament_index/resource_index/packages/tracking_actions
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_generator_cExport.cmake
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_generator_cExport-noconfig.cmake
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_typesupport_fastrtps_cExport.cmake
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_introspection_cExport.cmake
+[2.428s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_cExport.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_cExport-noconfig.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_generator_cppExport.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_introspection_cppExport.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_cppExport.cmake
+[2.429s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actions__rosidl_typesupport_cppExport-noconfig.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_generator_pyExport.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/export_tracking_actions__rosidl_generator_pyExport-noconfig.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/rosidl_cmake-extras.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/ament_cmake_export_libraries-extras.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/ament_cmake_export_targets-extras.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actionsConfig.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/cmake/tracking_actionsConfig-version.cmake
+[2.430s] -- Installing: /home/yigit/tukan_ros2_ws/install/tracking_actions/share/tracking_actions/package.xml
+[2.433s] Invoked command in '/home/yigit/tukan_ros2_ws/build/tracking_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yigit/tukan_ros2_ws/install/vision_pkg:/home/yigit/tukan_ros2_ws/install/uav_server_pkg:/home/yigit/tukan_ros2_ws/install/tracking_system_pkg:/home/yigit/tukan_ros2_ws/install/px4_interface_pkg:/home/yigit/tukan_ros2_ws/install/network_pkg:/home/yigit/tukan_ros2_ws/install/guardian_pkg:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg:/opt/ros/humble /usr/bin/cmake --install /home/yigit/tukan_ros2_ws/build/tracking_actions

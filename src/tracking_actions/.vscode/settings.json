@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/yigit/tukan_ros2_ws/install/vision_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/uav_server_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/yigit/tukan_ros2_ws/install/px4_interface_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/guardian_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/yigit/tukan_ros2_ws/install/vision_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/uav_server_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/tracking_system_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/home/yigit/tukan_ros2_ws/install/px4_interface_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/network_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/guardian_pkg/lib/python3.10/site-packages",
+        "/home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

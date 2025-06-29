@@ -9,6 +9,7 @@ setup.py
 ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/top_level.txt
 ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/zip-safe
 flight_manager_pkg/__init__.py
+flight_manager_pkg/mission_manager_node.py
 resource/flight_manager_pkg
 test/test_copyright.py
 test/test_flake8.py

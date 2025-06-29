@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from tracking_actions/action/GpsPursuit.action
+// generated code does not contain a copyright notice
+
+
+module tracking_actions {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct GpsPursuit_Goal {
+      int32 target_uav_id;
+
+      float timeout_sec;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct GpsPursuit_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct GpsPursuit_Feedback {
+      float distance_to_target;
+    };
+  };
+};

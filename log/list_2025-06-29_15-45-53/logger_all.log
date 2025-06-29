@@ -1,0 +1,136 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/yigit/tukan_ros2_ws']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/yigit/tukan_ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d2d7f6a13f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d2d7f6a0460>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d2d7f6a0460>>, mixin_verb=('list',))
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.198s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yigit/tukan_ros2_ws'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/install) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/log) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/log) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/flight_manager_pkg) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/flight_manager_pkg' with type 'ros.ament_python' and name 'flight_manager_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/guardian_pkg) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/guardian_pkg' with type 'ros.ament_python' and name 'guardian_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/network_pkg) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/network_pkg' with type 'ros.ament_python' and name 'network_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_interface_pkg) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/px4_interface_pkg' with type 'ros.ament_python' and name 'px4_interface_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/px4_msgs) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_actions) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/tracking_actions' with type 'ros.ament_cmake' and name 'tracking_actions'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/tracking_system_pkg) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/tracking_system_pkg' with type 'ros.ament_python' and name 'tracking_system_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/uav_server_pkg) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/uav_server_pkg' with type 'ros.ament_python' and name 'uav_server_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/yigit/tukan_ros2_ws/src/vision_pkg) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package '/home/yigit/tukan_ros2_ws/src/vision_pkg' with type 'ros.ament_python' and name 'vision_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

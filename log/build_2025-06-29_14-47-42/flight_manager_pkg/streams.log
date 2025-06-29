@@ -1,0 +1,24 @@
+[0.433s] Invoking command in '/home/yigit/tukan_ros2_ws/src/flight_manager_pkg': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/flight_manager_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flight_manager_pkg build --build-base /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build install --record /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/install.log --single-version-externally-managed install_data
+[0.604s] running egg_info
+[0.604s] writing ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/PKG-INFO
+[0.604s] writing dependency_links to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/dependency_links.txt
+[0.605s] writing entry points to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/entry_points.txt
+[0.605s] writing requirements to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/requires.txt
+[0.605s] writing top-level names to ../../build/flight_manager_pkg/flight_manager_pkg.egg-info/top_level.txt
+[0.608s] reading manifest file '../../build/flight_manager_pkg/flight_manager_pkg.egg-info/SOURCES.txt'
+[0.608s] writing manifest file '../../build/flight_manager_pkg/flight_manager_pkg.egg-info/SOURCES.txt'
+[0.608s] running build
+[0.608s] running build_py
+[0.608s] copying flight_manager_pkg/mission_manager_node.py -> /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build/lib/flight_manager_pkg
+[0.608s] running install
+[0.608s] running install_lib
+[0.608s] copying /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build/lib/flight_manager_pkg/mission_manager_node.py -> /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg
+[0.608s] byte-compiling /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg/mission_manager_node.py to mission_manager_node.cpython-310.pyc
+[0.608s] running install_data
+[0.608s] running install_egg_info
+[0.610s] removing '/home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.610s] Copying ../../build/flight_manager_pkg/flight_manager_pkg.egg-info to /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages/flight_manager_pkg-0.0.0-py3.10.egg-info
+[0.611s] running install_scripts
+[0.625s] Installing mission_manager_node script to /home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/flight_manager_pkg
+[0.625s] writing list of installed files to '/home/yigit/tukan_ros2_ws/build/flight_manager_pkg/install.log'
+[0.643s] Invoked command in '/home/yigit/tukan_ros2_ws/src/flight_manager_pkg' returned '0': PYTHONPATH=/home/yigit/tukan_ros2_ws/build/flight_manager_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yigit/tukan_ros2_ws/install/flight_manager_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/flight_manager_pkg build --build-base /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/build install --record /home/yigit/tukan_ros2_ws/build/flight_manager_pkg/install.log --single-version-externally-managed install_data

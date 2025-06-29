@@ -1,0 +1,12 @@
+#Goal
+int32 target_uav_id
+float32 timeout_sec
+
+---
+#Result
+bool success
+string message
+
+---
+#Feedback
+float32 distance_to_target
